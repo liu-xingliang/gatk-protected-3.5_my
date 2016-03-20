@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>gatk-aggregator</artifactId>
+        <groupId>org.broadinstitute.gatk</groupId>
+        <version>3.5</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>my</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.broadinstitute.gatk</groupId>
+            <artifactId>gatk-engine</artifactId>
+            <version>3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.broadinstitute.gatk</groupId>
+            <artifactId>gatk-utils</artifactId>
+            <version>3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
